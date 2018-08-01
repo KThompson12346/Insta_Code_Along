@@ -1,15 +1,15 @@
 .container {
 width: 800px;
-background: red;
+background: #999;
 margin: auto;
 margin-top: 50px;
 }
 
 .PhoneImage {
-  height: 200px;
-  width: 450px;
+  width: 440px;
   display: inline-block;
-  background-color: green;
+  text-align: center;
+  border: 2px solid black
 }
 
 .Sign_Up_Form {
@@ -17,4 +17,10 @@ margin-top: 50px;
   width: 350px;
   display: inline-block;
   background-color: yellow;
+}
+
+.PhoneImage img {
+  width: 400px;
+  margin-top: 40px;
+  display: inline-block;
 }
